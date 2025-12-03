@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* ---------------- NAVBAR ---------------- */
+
+.navbar {
+  background: #111;
+  color: #fff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar .logo {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  float: right;
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00aaff;
+}
+
+/* ---------------- HERO ---------------- */
+
+.hero {
+  background: #222;
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 55px;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  margin: 20px auto;
+  font-size: 18px;
+  max-width: 700px;
+  opacity: 0.9;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+/* ---------------- ABOUT ---------------- */
+
+.about {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.about img {
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.about h2 {
+  margin-bottom: 10px;
+}
+
+.about p {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+/* ---------------- SERVICES ---------------- */
+
+.services {
+  padding: 60px 0;
+  background: #fafafa;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  max-width: 600px;
+  margin: auto;
+}
+
+.services li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* ---------------- SKILLS ---------------- */
+
+.skills {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.skills h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.skills h3 {
+  margin-top: 20px;
+  color: #007bff;
+}
+
+.skills p {
+  font-size: 17px;
+}
+
+/* ---------------- PROJECTS ---------------- */
+
+.projects {
+  padding: 60px 0;
+  background: #fafafa;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.project-card {
+  background: #fff;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px #ccc;
+}
+
+.project-card h3 {
+  color: #333;
+}
+
+.project-card ul {
+  margin-top: 10px;
+}
+
+.project-card li {
+  margin: 6px 0;
+}
+
+/* ---------------- EXPERIENCE ---------------- */
+
+.experience {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.experience h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.experience li {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+/* ---------------- PROFILES ---------------- */
+
+.profiles {
+  padding: 60px 0;
+  background: #fafafa;
+}
+
+.profiles h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.profiles a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.profiles a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------- CONTACT ---------------- */
+
+.contact {
+  background: #eaeaea;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 15px;
+}
+
+.contact p {
+  font-size: 18px;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0;
+  margin-top: 20px;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+
+@media (max-width: 768px) {
+  .nav-links {
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-links li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about img {
+    width: 220px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+}
