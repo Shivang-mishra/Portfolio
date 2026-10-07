@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shivang Mishra | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -41,7 +44,7 @@
 </header>
 
 <!-- ABOUT -->
-<section id="about" class="about" style="background-color: beige;">
+<section id="about" class="about section-bg-alt">
   <div class="container about-flex">
     <img src="profile.png" alt="Shivang Mishra">
     <div class="about-text">
@@ -49,7 +52,7 @@
       <p>
         I am a Software Developer and Full-Stack Developer with hands-on experience building responsive frontend applications, REST APIs, backend services, database-driven systems, and AI-powered applications. I work with React, TypeScript, Node.js, Express.js, MongoDB, SQL Server, and modern AI/ML tools.
       </p>
-      <a href="resume.pdf" class="btn" target="_blank" rel="noopener noreferrer">Download Resume</a>
+      <a href="resume.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Download Resume</a>
     </div>
   </div>
 </section>
@@ -79,7 +82,7 @@
 </section>
 
 <!-- EXPERIENCE -->
-<section id="experience" class="experience" style="background-color: aliceblue;">
+<section id="experience" class="experience section-bg-alt">
   <div class="container">
     <h2 class="section-title">Professional Experience</h2>
     
@@ -95,8 +98,8 @@
         <li>Collaborated with backend developers and QA teams via Git version control, utilizing branching, pull requests, and peer code reviews.</li>
       </ul>
       <div class="doc-links">
-        <a href="https://drive.google.com/file/d/1oOJrGurkXu8zGo1vikwsSbkOvBg856vV/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Experience Letter</a>
-        <a href="https://drive.google.com/file/d/1yEFbPLxJbXuotiO5wSMVUwHrlADeVhoA/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-small">Work Summary</a>
+        <a href="https://drive.google.com/file/d/1oOJrGurkXu8zGo1vikwsSbkOvBg856vV/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-small">Experience Letter</a>
+        <a href="https://drive.google.com/file/d/1yEFbPLxJbXuotiO5wSMVUwHrlADeVhoA/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-small">Work Summary</a>
       </div>
     </div>
 
@@ -108,7 +111,7 @@
         <li>Managed source code via Git and GitHub to streamline version control, debugging, and deployment workflows.</li>
       </ul>
       <div class="doc-links">
-        <a href="https://drive.google.com/file/d/1KMjWf1KFheCuFuARCxawr4a7udbcoPm1/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Experience Letter</a>
+        <a href="https://drive.google.com/file/d/1KMjWf1KFheCuFuARCxawr4a7udbcoPm1/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-small">Experience Letter</a>
       </div>
     </div>
   </div>
@@ -149,7 +152,7 @@
 </section>
 
 <!-- SKILLS -->
-<section id="skills" class="skills" style="background-color: beige;">
+<section id="skills" class="skills section-bg-alt">
   <div class="container">
     <h2 class="section-title">Technical Skills</h2>
 
@@ -216,7 +219,15 @@
 
     <div class="project-card">
       <h3>Shivang AI — Full-Stack AI Chatbot</h3>
-      <p class="tech-stack"><strong>Tech:</strong> React.js, Vite, Node.js, Express.js, MongoDB, Gemini API, JWT</p>
+      <div class="tech-stack">
+        <span class="tech-pill">React.js</span>
+        <span class="tech-pill">Vite</span>
+        <span class="tech-pill">Node.js</span>
+        <span class="tech-pill">Express.js</span>
+        <span class="tech-pill">MongoDB</span>
+        <span class="tech-pill">Gemini API</span>
+        <span class="tech-pill">JWT</span>
+      </div>
       <ul>
         <li>Created a robust full-stack AI chatbot capable of persistent conversations and contextual chat history by leveraging MongoDB and the Gemini API.</li>
         <li>Secured backend operations through JWT authentication and role-based access control, integrating Google Search Grounding for dynamic query routing.</li>
@@ -229,7 +240,17 @@
 
     <div class="project-card">
       <h3>Product Listing & Cart Management System</h3>
-      <p class="tech-stack"><strong>Tech:</strong> React.js, TypeScript, Redux Toolkit, Material UI, Node.js, Express.js, MongoDB, Cloudinary, Axios</p>
+      <div class="tech-stack">
+        <span class="tech-pill">React.js</span>
+        <span class="tech-pill">TypeScript</span>
+        <span class="tech-pill">Redux Toolkit</span>
+        <span class="tech-pill">Material UI</span>
+        <span class="tech-pill">Node.js</span>
+        <span class="tech-pill">Express.js</span>
+        <span class="tech-pill">MongoDB</span>
+        <span class="tech-pill">Cloudinary</span>
+        <span class="tech-pill">Axios</span>
+      </div>
       <ul>
         <li>Designed a comprehensive product application featuring RESTful CRUD APIs, server-side pagination, sorting, category filtering, and structured error handling.</li>
         <li>Configured Redux Toolkit for efficient state management, integrating Multer and Cloudinary for seamless image uploads with MongoDB persistence.</li>
@@ -242,7 +263,13 @@
 
     <div class="project-card">
       <h3>Heart Disease Detection</h3>
-      <p class="tech-stack"><strong>Tech:</strong> Python, Pandas, NumPy, Scikit-learn, Streamlit</p>
+      <div class="tech-stack">
+        <span class="tech-pill">Python</span>
+        <span class="tech-pill">Pandas</span>
+        <span class="tech-pill">NumPy</span>
+        <span class="tech-pill">Scikit-learn</span>
+        <span class="tech-pill">Streamlit</span>
+      </div>
       <ul>
         <li>Trained predictive machine learning models utilizing the UCI Heart Disease dataset, systematically evaluating Logistic Regression, Random Forest, SVM, and KNN.</li>
         <li>Deployed an interactive Streamlit application to showcase model evaluation, intuitive data visualization, and real-time prediction insights.</li>
@@ -255,7 +282,12 @@
     
     <div class="project-card">
       <h3>Employee Management System</h3>
-      <p class="tech-stack"><strong>Tech:</strong> React.js, TypeScript, Material UI, Local Storage</p>
+      <div class="tech-stack">
+        <span class="tech-pill">React.js</span>
+        <span class="tech-pill">TypeScript</span>
+        <span class="tech-pill">Material UI</span>
+        <span class="tech-pill">Local Storage</span>
+      </div>
       <ul>
         <li>Constructed an employee management interface supporting complete CRUD operations through highly reusable React and TypeScript components.</li>
         <li>Incorporated advanced search, sorting, pagination, and robust input validation, alongside Local Storage persistence and interactive Snackbar feedback.</li>
@@ -269,13 +301,13 @@
 </section>
 
 <!-- CERTIFICATIONS -->
-<section id="certifications" class="certifications" style="background-color: aliceblue;">
+<section id="certifications" class="certifications section-bg-alt">
   <div class="container">
     <h2 class="section-title">Certifications</h2>
     <div class="certifications-grid">
       <div class="cert-card">
         <h3>Generative AI</h3>
-        <a href="https://drive.google.com/file/d/1WqqVAzQkFO0vCOtNm4tDlNnz4n8rkk7A/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-small">View Certificate</a>
+        <a href="https://drive.google.com/file/d/1WqqVAzQkFO0vCOtNm4tDlNnz4n8rkk7A/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-small">View Certificate</a>
       </div>
       <div class="cert-card">
         <h3>Web Development</h3>
@@ -302,7 +334,7 @@
 </section>
 
 <!-- PROFILES -->
-<section id="profiles" class="profiles-section" style="background-color: beige;">
+<section id="profiles" class="profiles-section section-bg-alt">
   <h2>Profiles</h2>
   <p class="profiles-subtitle">Find me on these platforms</p>
 
@@ -325,7 +357,7 @@
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="contact" style="background-color: rgb(136,136,108);">
+<section id="contact" class="contact">
   <div class="container">
     <h2>Contact Me</h2>
     <p>Let’s build something great together.</p>
